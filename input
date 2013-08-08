@@ -1,0 +1,8 @@
+FIServerPort@9999
+Cassandra server@Logging <host IP>:9160 1 org.apache.cassandra.locator.SimpleStrategy
+#-add-Tenant
+<Tenant ID>-<Keyspace>-<Number of networks>
+<network1> <mask> <Column Family>
+#-add-Tenant
+<Tenant ID>-<Keyspace>-<Number of networks>
+<network1> <mask> <Column Family>
